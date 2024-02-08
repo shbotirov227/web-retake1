@@ -37,18 +37,19 @@ const Contact = () => {
 					<div className="Contact-addressSection">
 						<ul>
 							<h4 className="addressSection-title">CALL US</h4>
-							<li className="addressSection-item">+1 (781) 389-9868</li>
-							<li className="addressSection-item">+1 (239) 428-1781</li>
+							<li className="addressSection-item"><a href="tel:+586-411-2331">+586-411-2331</a></li>
+							<li className="addressSection-item"><a href="tel:+586-700-4641">+586-700-4641</a></li>
 						</ul>
 						<ul>
 							<h4 className="addressSection-title">LOCATION</h4>
-							<li className="addressSection-item">75 State St. Suite 100 Financial District Boston, MA 02109</li>
+							<li className="addressSection-item">415 Quinton Canyon, North Wardtown, Idaho, 49845</li>
 						</ul>
 						<ul>
 							<h4 className="addressSection-title">OUR TOP SERVICES</h4>
+							<li className="addressSection-item">Member's book of the month</li>
 							<li className="addressSection-item">Online reservations</li>
-							<li className="addressSection-item">Organizing a party</li>
-							<li className="addressSection-item">Excursions and Tours</li>
+							<li className="addressSection-item">Book donation</li>
+							<li className="addressSection-item">Trading</li>
 						</ul>
 					</div>
 
