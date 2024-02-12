@@ -1,0 +1,19 @@
+.GiftCards {
+    margin-bottom: 150px;
+
+    .Blog-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 20%;
+            height: 20%;
+            margin: 0 20px;
+        }
+    }
+}

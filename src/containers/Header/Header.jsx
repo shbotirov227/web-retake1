@@ -16,7 +16,7 @@ const Header = () => {
 					<div>
 						<HashLink to="/#events" className="Header-link">Books</HashLink>
 						<HashLink to="/#services" className="Header-link">Services</HashLink>
-						<HashLink to="/#blog" className="Header-link">Blog</HashLink>
+						<HashLink to="/#forums" className="Header-link">Forums</HashLink>
 						<HashLink to="/#subscribes" className="Header-link">Packages</HashLink>
 						<Link to="/about-us" className="Header-link">About us</Link>
 						<Link to="/contact" className="Header-link">Contact us</Link>

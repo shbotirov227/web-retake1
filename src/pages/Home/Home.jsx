@@ -9,6 +9,7 @@ import OtherServices from "../../containers/OtherServices/OtherServices";
 // import BackgroundVideo from "../../assets/images/eventVideo.mp4";
 
 import "./Home.scss";
+import GiftCards from "../../containers/GiftCards/GiftCards";
 
 const Home = () => {
 	return (
@@ -18,6 +19,7 @@ const Home = () => {
 			<Upcoming />
 			<OtherServices />
 			<Blog />
+			<GiftCards />
 			<MakeEvent />
 			<Package />
 			<Footer />

@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import Header from "../../containers/Header/Header";
 import Footer from "../../containers/Footer/Footer";
-import barry from "../../assets/images/barry.png"
 
 import "./About.scss";
 
@@ -11,10 +9,8 @@ const About = () => {
 		<div className="About">
 			<Header />
 			<div className="About-inner container">
-				{/* <h3 className="About-title">Welcome to Party Time Events</h3> */}
 
 				<div style={{ display: "flex" }}>
-					{/* <img style={{width: "50%"}} src={barry} alt="" /> */}
 					<p className="About-text">
 						"Read it" was established in 2004 with the vision to provide an extensive library of books in digital format for free on the Internet. Many of the early eBooks are from the Project Gutenberg archives, which means you will be able to find a lot of classics on the site.
 
