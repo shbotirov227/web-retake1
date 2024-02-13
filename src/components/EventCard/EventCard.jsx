@@ -26,7 +26,7 @@ const EventCard = ({ eventImg, title, text, date, month, eventType, author }) =>
 				</div>
 			</div>
 
-			{/* <button className="buyBtn">Buy</button> */}
+			<button className="buyBtn">Buy</button>
 		</div>
 	)
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import EventCard from "../../components/EventCard/EventCard";
 import bookImg1 from "../../assets/images/bookImg1.jpg";
 import bookImg2 from "../../assets/images/bookImg2.jpg";
@@ -11,25 +11,11 @@ import bookImg8 from "../../assets/images/bookImg8.jpg";
 import bookImg9 from "../../assets/images/bookImg9.jpg";
 import bookImg10 from "../../assets/images/bookImg10.jpg";
 import bookImg11 from "../../assets/images/bookImg11.jpg";
-// import EventCardImg2 from "../../assets/images/eventCardImg2.jpg";
-// import EventCardImg3 from "../../assets/images/eventCardImg3.png";
-// import EventCardImg4 from "../../assets/images/eventCardImg4.jpg";
-// import EventCardImg5 from "../../assets/images/eventCardImg5.jpg";
-// import EventCardImg6 from "../../assets/images/eventCardImg6.jpg";
 
 import "./Upcoming.scss";
 
 
 const Upcoming = () => {
-
-	// const [ book, setBook] = useState()
-
-	// fetch("https://freetestapi.com/api/v1/books")
-    //  .then((res) => res.json())
-    //  .then((data) => {
-    //    setBook(data);
-    //  });
-	// Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam placeat, repellendus corrupti aliquid, praesentium possimus mollitia facere sapiente impedit eos, autem non quam porro. Doloremque provident enim ipsam quibusdam.
 
 	const data = [
 		{
